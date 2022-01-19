@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*-- include all fonts -- */
+/*---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+/*-- dicleare font --- */
+:root{
+    --main-font: 'Poppins', sans-serif;
+}
+
+
+/*-- Dicleare Color -- */
+:root{
+    --main-color: #ac887e;
+    --white-color: #fff;
+    --dark-white-color: #ddd;
+    --black-color: #000;
+    --dark-color: #6c757d;
+}
