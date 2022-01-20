@@ -8,6 +8,7 @@ header{
     left: 0;
     z-index: 10;
     width: 100%;
+    background-color: rgb(110, 110, 110);
 }
 .navbar-brand{
     position: absolute;
@@ -39,4 +40,22 @@ header{
     color: var(--main-color) !important;
 }
 
+/*-- @media queary -- */
+@media (max-width: 1220px) {
+    .nav-left{
+        margin-left: 16rem;
+    }
+    .nav-right{
+        margin-right: 17rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-left{
+        margin-left: 11rem;
+    }
+    .nav-right{
+        margin-right: 12rem;
+    }
+}
 /*-- banner section design Start--- */
