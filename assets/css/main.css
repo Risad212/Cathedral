@@ -1,6 +1,29 @@
 @import url('utility.css');
 @import url('swipper.css');
+/* ----------------------- */
+/*[ mobile navbar start]
+==============================*/
+#mobile-nav{
+    padding: 10px 0;
+    box-shadow: 5px 5px 5px #ddd;
+}
+#mobile-nav .navbar-brand{
+    left: 2%;
+    transform: translateX(0%);
+    top: 21px;
+}
+.navbar-mobile {
+    margin-top: 6rem;
+}
+.navbar-mobile .nav-item .nav-link{
+    color: #000000 !important;
+}
+/*[ mobile navbar End]
+==============================*/
 
+
+/*[ header navbar start]
+==============================*/
 header{
     padding: 1.2rem 0px;
     position: absolute;
@@ -8,7 +31,6 @@ header{
     left: 0;
     z-index: 10;
     width: 100%;
-    background-color: rgb(110, 110, 110);
 }
 .navbar-brand{
     position: absolute;
@@ -21,10 +43,10 @@ header{
 }
 
 .nav-left {
-    margin-left: 21rem;
+    margin-left: 17rem;
 }
 .nav-right {
-    margin-right: 21.5rem;
+    margin-right: 17rem;
 }
 .nav-item{
     font-size: 16px;
@@ -39,8 +61,11 @@ header{
 .nav-item:hover a{
     color: var(--main-color) !important;
 }
+/*[ header navbar End]
+==============================*/
+/* ----------------------------- */
 
-/*-- @media queary -- */
+/*----- @media queary Start ---- */
 @media (max-width: 1220px) {
     .nav-left{
         margin-left: 16rem;
@@ -58,4 +83,41 @@ header{
         margin-right: 12rem;
     }
 }
-/*-- banner section design Start--- */
+
+@media (max-width: 991px){
+    header{
+        display: none;
+    }
+    .mobile-nav-wrapper{
+        display: block;
+    }
+}
+@media (min-width: 991px){
+    header{
+        display: block;
+    }
+    #mobile-nav{
+        display: none;
+    }
+}
+/*--- @media queary End --- */
+/* ------------------------ */
+
+
+/*[ Banner Section start ]
+===========================================================*/
+.swiper {
+  width: 100%;
+  height: 700px;
+  }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 700px;
+}

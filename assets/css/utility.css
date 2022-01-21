@@ -1,3 +1,6 @@
+/*[ RESTYLE TAG ]
+///////////////////////////////////////////////////////////
+*/
 *{
     margin: 0;
     padding: 0;
@@ -12,21 +15,23 @@ ul{
     list-style: none;
 }
 
-/*-- include all fonts -- */
 
+/*[ FONT ]
+///////////////////////////////////////////////////////////
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 /*--------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500&display=swap');
 /*--------------------------------------*/
 
-/*-- dicleare font --- */
+
 :root{
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Lato', sans-serif;
 }
 
 
-/*-- Dicleare Color -- */
+/*-- color code -- */
 :root{
     --main-color: #ac887e;
     --white-color: #fff;
