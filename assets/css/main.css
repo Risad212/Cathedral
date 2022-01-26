@@ -56,9 +56,12 @@ header{
 }
 .nav-item .nav-link{
     color: var(--white-color) !important;
-    transition: color .3s ease-in;
+    transition: color .1s ease-in;
 }
 .nav-item:hover a{
+    color: var(--main-color) !important;
+}
+.nav-item  .active{
     color: var(--main-color) !important;
 }
 /*[ header navbar End]
@@ -127,16 +130,16 @@ header{
   height: 820px;
   position: relative;
 }
-.swiper::before{
+.swiper-wrapper::before{
   content: '';
   display: block;
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
   left: 0;
   top: 0;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5)80%);
+  background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.2));
 }
 .swiper-slide {
   background-position: center;
@@ -203,13 +206,40 @@ header{
 }
 
 .slider-text{
-    z-index: 20;
     position: absolute;
     height: 100%;
     display: flex;
     align-items: center;
     justify-self: center;
-    top: 0;
-    left: 0;
-    transform: translateY(50%, -50%);
+    flex-direction: column;
+    top: 35%;
+    left: 50%;
+    z-index: 5;
+    transform: translateX(-50%);
+}
+.slider-text h2{
+    font-size: 4.5rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    color: #fff;
+}
+.slider-text p {
+    color: #fff;
+    font-family: var(--main-font);
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 8rem;
+}
+.slider-text button{
+    background-color: var(--main-color);
+    margin-top: 21px;
+    color: var(--white-color);
+    padding: 15px  30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    border: none;
 }
