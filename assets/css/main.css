@@ -230,7 +230,34 @@ header{
 .swiper-button-next:hover::before{
     transform: rotateY(0deg);
 }
-
+/*-- slider media query ---- */
+@media screen and (max-width: 1500px) {
+    .content{
+      padding: 0 20rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content{
+      padding: 0 10rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .content{
+      padding: 0 5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .content{
+      padding: 0 0rem;
+    }
+    .content h2{
+      font-size: 3.5rem;
+    }
+    .content p{
+        font-size: 15px;
+        margin: 0px 1rem;
+    }
+}
 /*--- slider cart ---- */
 .singleCart{
     padding: 35px 20px;
@@ -252,4 +279,4 @@ header{
     background: #a27a6e;
 }
 
-/*-- media query ---- */
+
