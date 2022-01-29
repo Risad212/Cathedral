@@ -153,6 +153,7 @@ header{
     margin-bottom: 1.5rem;
     line-height: 1.2;
     color: #fff;
+    letter-spacing: 5px;
 }
 .swiper-slide p {
     color: #fff;
@@ -176,8 +177,10 @@ header{
     background-color: var(--dark-main);
 }
 .content{
-    margin: 18rem 0;
+    margin: 16.5rem 0;
     padding: 0 30.5rem;
+    z-index: 99;
+    position: relative;
 }
 .swiper-button-prev {
     background: rgba(0,0,0,0.5);
@@ -260,17 +263,17 @@ header{
 }
 /*--- slider cart ---- */
 .singleCart{
-    padding: 35px 20px;
+    padding: 40px 60px;
     font-family: var(--main-font);
 }
 .singleCart h3{
     font-weight: 800;
-    font-size: 25px;
+    font-size: 23px;
     color: var(--white-color);
 }
 .singleCart p{
     color: var(--white-color);
-    font-size: 17px;
+    font-size: 15px;
 }
 .singleCart:nth-child(odd){
     background: rgba(172,136,126);
@@ -280,3 +283,32 @@ header{
 }
 
 
+/*--- service section style ---*/
+.service-header p{
+  font-family: var(--head-font);
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+  color: var(--main-color)
+}
+.service-header h3{
+    font-weight: 800;
+    font-family: var(--main-font);
+    font-size: 30px;
+}
+.single-service i{
+    font-size: 3em;
+    color: var(--main-color);
+    margin-bottom: 16px;
+}
+.single-service h4{
+    font-weight: 900;
+    font-family: var(--main-font);
+    font-size: 20px;
+}
+.single-service p{
+    font-size: 18px;
+    color: #6c757d;
+    line-height: 1.5;
+}
+/*--- service section style End ---*/

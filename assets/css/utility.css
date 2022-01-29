@@ -23,11 +23,15 @@ ul{
 /*--------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500&display=swap');
 /*--------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400&family=Montserrat:wght@300&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins:wght@300;400;500&display=swap');
+/*--------------------------------------*/
+
 
 /*-- global fonts -- */
 :root{
     --main-font: 'Poppins', sans-serif;
     --secondary-font: 'Lato', sans-serif;
+    --head-font: 'Playfair Display', serif;
 }
 
 
