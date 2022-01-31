@@ -284,6 +284,9 @@ header{
 
 
 /*--- service section style ---*/
+#service{
+    padding: 6rem 0;
+}
 .service-header p{
   font-family: var(--head-font);
   font-style: italic;
@@ -312,3 +315,147 @@ header{
     line-height: 1.5;
 }
 /*--- service section style End ---*/
+
+/*--work section style start ---*/
+#work{
+    margin-bottom: 5rem;
+    background-color: rgb(248,249,250);
+    overflow-x: hidden;
+}
+.work-img{
+   background-image: url('../media/work-img.jpg');
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+}
+.work-content{
+    padding: 5.5rem 2.5rem;
+}
+.work-head-content{
+    font-size: 18px;
+    font-family: var(--head-font);
+    font-style: italic;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.work-content h2{
+   font-size: 30px;
+   font-family: var(--main-font);
+   font-weight: 800;
+}
+.work-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6c757d;
+}
+.work-content ul li{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #6c757d;
+    font-family: var(--secondary-font);
+}
+.work-content ul li i{
+    color: var(--main-color);
+    margin-right: 10px;
+}
+.work-content img{
+    width: 10%;
+}
+.work-content h5{
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: var(--secondary-font);
+    margin: 0;
+}
+.work-conten-footer-text{
+    font-size: 16px;
+    color: var(--main-color);
+    font-family: var(--head-font);
+    font-style: italic;
+    margin: 0;
+}
+/*--work section style End ---*/
+
+
+/*-- sermon section style start -- */
+.sermon-head span{
+    font-size: 18px;
+    font-family: var(--head-font);
+    font-style: italic;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.sermon-head h2{
+    font-size: 30px;
+    font-family: var(--main-font);
+    font-weight: 800;
+}
+.single-sermon img{
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+.sermon-content h4{
+    font-family: var(--main-font);
+    font-weight: 900;
+    margin-top: 15px;
+}
+.sermon-content p{
+    font-family: var(--head-font);
+    color: var(--main-color);
+    font-style: italic;
+}
+.sermon-content span{
+    font-size: 17px;
+    font-family: var(--secondary-font);
+    color: #6c757d;
+}
+/*-- sermon section style End -- */
+
+/*--- Volunteer style start --- */
+#volunteer{
+    background-image: url(../media/volunteer.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.overlay{
+    position: relative;
+}
+.overlay::after{
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background: #584039;
+    z-index: 2;
+}
+.singlevolunter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    position: relative;
+    z-index: 20;
+    color: var(--white-color);
+}
+.singlevolunter span{
+    font-family: var(--head-font);
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.singlevolunter h2{
+    font-weight: bold;
+    font-family: var(--bold-font);
+    font-size: 60px;
+}
