@@ -36,6 +36,7 @@ ul{
     --secondary-font: 'Lato', sans-serif;
     --head-font: 'Playfair Display', serif;
     --bold-font: 'Roboto', sans-serif;
+    --babes-font: 'Bebas Neue', cursive;
 }
 
 
@@ -47,4 +48,6 @@ ul{
     --dark: #000000;
     --dark-blue: #6c757d;
     --dark-main: #907c76;
+    --dark-brown: #a27a6e;
+    --light: #f8f9fa;
 }

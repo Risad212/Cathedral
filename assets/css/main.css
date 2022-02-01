@@ -419,9 +419,8 @@ header{
     background-image: url(../media/volunteer.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 50vh;
+    height: 55vh;
     width: 100%;
-    margin-bottom: 120px;
 }
 .overlay{
     position: relative;
@@ -442,20 +441,110 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5rem 0;
+    padding: 8rem;
     position: relative;
     z-index: 20;
     color: var(--white-color);
+    margin: 15px 0;
 }
 .singlevolunter span{
     font-family: var(--head-font);
     font-style: italic;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 .singlevolunter h2{
     font-weight: bold;
+    font-family: var(--main-font);
+    font-size: 70px;
+    margin: 8px 0px;
+}
+.singlevolunter a{
+    color: var(--white-color);
+    background-color: var(--main-color);
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    transition: all .3s ease-in;
+}
+.singlevolunter a:hover{
+    background-color: var(--dark-main);
+}
+/*--- Volunteer style End --- */
+
+
+/*--- next event style start --- */
+#next-event{
+    background-color: var(--dark-brown);
+    margin-bottom: 2rem;
+}
+#next-event h4{
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 700;
     font-family: var(--bold-font);
-    font-size: 60px;
+}
+.timer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-timer p{
+    font-size: 18px;
+    color: var(--white-color);
+    font-family: var(--head-font);
+    font-style: italic;
+    font-weight: 800;
+}
+.common-style{
+    margin: 0 15px;
+}
+.common-style p{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--main-font);
+    font-style: normal;
+    margin-bottom: 0;
+}
+.common-style span{
+    font-family: var(--head-font);
+    color: var(--white-color);
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.event-button a{
+    color: var(--white-color);
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--main-font);
+    border: 1px solid var(--light);
+    transition: .3s ease-in;
+}
+.event-button a:hover{
+    background-color: var(--light);
+    color: var(--dark-color)
+}
+/*--- next event style End --- */
+
+/*--- Event cart style start --- */
+.eventCartHead{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.eventCartHead p{
+    font-family: var(--head-font);
+    color: var(--main-color);
+    font-style: italic;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+.eventCartHead h3{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2.5px;
 }
