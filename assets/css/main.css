@@ -471,6 +471,45 @@ header{
 .singlevolunter a:hover{
     background-color: var(--dark-main);
 }
+/*-- media query -- */
+@media screen and (max-width: 1800px) {
+    .singlevolunter{
+        padding: 4rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .singlevolunter{
+        padding: 4rem 0;
+    }
+    .singlevolunter h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .singlevolunter h2{
+        font-size: 30px;
+    }
+    .singlevolunter span{
+        font-size: 17px;
+    }
+    .singlevolunter a{
+        padding: 9px 21px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .singlevolunter h2{
+        font-size: 25px;
+    }
+    .singlevolunter span{
+        font-size: 14px;
+    }
+    .singlevolunter a{
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+
 /*--- Volunteer style End --- */
 
 
