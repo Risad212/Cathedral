@@ -698,7 +698,30 @@ header{
 .donate-content p{
     font-size: 17px;
     color: #6c757d;
-    font-family: var(--main-font);
+    font-family: var(--bold-font);
     padding-left: 15rem;
     font-weight: 400;
+}
+.progress-container{
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+.progres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.progres h3{
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    font-family: var(--main-font);
+    color: var(--dark-brown);
+    font-weight: 900;
+    margin: 0;
 }
