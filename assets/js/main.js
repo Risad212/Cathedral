@@ -13,3 +13,39 @@ setInterval(() => {
     document.querySelector('.second').innerHTML = seconds;
 
 },1000)
+
+
+/* =====================================================
+		SCROLL TOP BUTTON [SHOW & HIDE & CLICKING]
+	===================================================== */
+const scrollBtn = document.getElementById('strollTop')
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (window.pageYOffset >= 1000 || document.documentElement.scrollTop > 50) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+/* =====================================================
+		toggle collapse button
+	===================================================== */
+const collapseBtn = document.getElementById('collapse-button')
+const tootgleButton = document.getElementById('showCollapse')
+collapseBtn.onclick = function(){
+  if(tootgleButton.style.left == '-310px'){
+        tootgleButton.style.left = '0'
+      }else{
+         tootgleButton.style.left = '-310px'
+      }
+}
+
+    
