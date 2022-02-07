@@ -64,6 +64,8 @@ const blue = '#437ba3'
 
 document.getElementById('colors').addEventListener('change', (e) =>{
    const color = e.target.value
-   console.log(color)
+   let getMainStyle = document.querySelector(':root')
+   getMainStyle.style.setProperty('--main-color', color);
 })
+
 
