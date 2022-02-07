@@ -1,4 +1,5 @@
 @import url('utility.css');
+@import url('colors.css');
 /* ----------------------- */
 /*[ mobile navbar start]
 ==============================*/
@@ -954,7 +955,7 @@ footer{
 /*-- collapse button show color --- */
 #showCollapse{
     width: 300px;
-    padding: 20px;
+    padding: 40px 20px;
     position: fixed;
     top: 163px;
     left: -301px;
@@ -982,4 +983,4 @@ footer{
     margin-bottom: 1rem;
     padding: 5px 10px;
 }
-
+/*-- collapse button show color End --- */
