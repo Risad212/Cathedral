@@ -471,7 +471,7 @@ header{
 /*-- media query -- */
 @media screen and (max-width: 1800px) {
     .singlevolunter{
-        padding: 4rem;
+        padding: 2rem;
     }
 }
 @media screen and (max-width: 1000px) {
@@ -943,7 +943,17 @@ footer{
     color: var(--white-color);
     border: 1px solid var(--main-color);
 }
-
+#collapse-button button i{
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
 /*-- collapse button show color --- */
 #showCollapse{
