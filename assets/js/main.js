@@ -50,18 +50,8 @@ collapseBtn.onclick = function(){
 
     
 
-// color cods
+// color change system
 //--------------------
-
-const brown = '#ac887e'
-const red = 'rgb(252, 52, 52)'
-const pink = '#d65f86'
-const green = '#4e8c50'
-const violet = '#745a7c'
-const sea = '#368180'
-const blue = '#437ba3'
-
-
 document.getElementById('colors').addEventListener('change', (e) =>{
    const color = e.target.value
    let getMainStyle = document.querySelector(':root')
