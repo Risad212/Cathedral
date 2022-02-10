@@ -170,10 +170,6 @@ header{
     font-family: var(--main-font);
     border: none;
     display: inline-block;
-    transition: .4 ease-in;
-}
-.swiper-slide a:hover{
-    background-color: var(--dark-main);
 }
 .content{
     margin: 16.5rem 0;
@@ -916,16 +912,12 @@ footer{
     justify-content: center;
     background: var(--main-color);
     color: var(--white-color);
-    transition: background-color 0.3s;
     position: fixed;
     right: 1rem;
     bottom: -4rem;
     z-index: 9999;
     bottom: 1rem;
     right: 1rem;
-}
-#strollTop a:hover{
-    background-color: var(--dark-brown);
 }
 /*-- scroll top button style End --*/
 
