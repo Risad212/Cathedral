@@ -50,8 +50,8 @@ collapseBtn.onclick = function(){
 
     
 
-// color change system
-//--------------------
+// Style Switcher
+//--------------------------
 document.getElementById('colors').addEventListener('change', (e) =>{
    const color = e.target.value
    let getMainStyle = document.querySelector(':root')
