@@ -173,7 +173,7 @@ header{
     background: var(--main-color)
 }
 .singleCart:nth-child(odd){
-    background-color: var(--simple-main);
+    background-color: var(--main-color);
 }
 .singleCart{
     padding: 40px 60px;
