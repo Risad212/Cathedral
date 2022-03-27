@@ -760,12 +760,13 @@ footer{
     width: 300px;
     padding: 40px 20px;
     position: fixed;
-    top: 163px;
-    left: -301px;
+    top: 10rem;
+    left: 0;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(206, 212, 218);
     z-index: 2000;
     transition: left .3s ease;
+    display: none;
 }
 #showCollapse h4{
     font-family: var(--main-font);

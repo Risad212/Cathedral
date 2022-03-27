@@ -36,19 +36,15 @@ function topFunction() {
 
 
 /* =====================================================
-		toggle collapse button
-	===================================================== */
-const collapseBtn = document.getElementById('collapse-button')
-const tootgleButton = document.getElementById('showCollapse')
-collapseBtn.onclick = function(){
-  if(tootgleButton.style.left == '-310px'){
-        tootgleButton.style.left = '0'
-      }else{
-         tootgleButton.style.left = '-310px'
-      }
-}
+// 		toggle collapse button
+===================================================== */
+$(document).ready(function(){
+  $("#collapse-button").click(function(){
+    $("#showCollapse").slideToggle()
+  });
+});
 
-    
+
 
 // Style Switcher
 //--------------------------
