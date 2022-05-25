@@ -1,4 +1,4 @@
 # Cathedral
 
 Cathedral is html template
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+where you can show about charch
